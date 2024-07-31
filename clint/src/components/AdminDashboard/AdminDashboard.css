@@ -1,0 +1,39 @@
+/* AdminDashboard.css */
+
+.dashboard-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center; /* Center horizontally */
+}
+
+.dashboard-container input,
+.dashboard-container textarea,
+.dashboard-container button {
+  display: block;
+  width: 50%; /* Adjust as needed */
+  margin: 10px auto; /* Center elements horizontally */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.tender-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
